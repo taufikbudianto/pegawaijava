@@ -1,8 +1,8 @@
 # pegawaijava (Spring boot)
 
-Server.port = 8032
-1. End point for save data 
-    localhost:8320/api/save
+Server.port = 8032 && 8003
+1. End point for save data hanya bisa dengan port 8032
+    localhost:8032/api/save
    sample request 
    <br>
    body  -> {
@@ -25,7 +25,7 @@ Server.port = 8032
    response -> Sukses
                
 
- 2. End point for get data 
+ 2. End point for get data dapat menggunanakan kedua port
  localhost:8320/api/getbyuserid?userid=1
  <br>
  response
